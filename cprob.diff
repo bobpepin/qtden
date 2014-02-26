@@ -1,0 +1,35 @@
+diff -urN cprob-orig/cprob.pro cprob/cprob.pro
+--- cprob-orig/cprob.pro	Thu Jan  1 01:00:00 1970
++++ cprob/cprob.pro	Tue Apr  9 13:54:13 2013
+@@ -0,0 +1,12 @@
++TEMPLATE = lib
++
++CONFIG -= dll
++CONFIG += static
++CONFIG += debug_and_release build_all
++
++HEADERS = mconf.h
++
++SOURCES = bdtr.c btdtr.c chdtr.c drand.c expx2.c fdtr.c gamma.c gdtr.c \
++igam.c igami.c incbet.c incbi.c mtherr.c nbdtr.c ndtr.c ndtri.c pdtr.c \
++stdtr.c unity.c polevl.c const.c
++
+diff -urN cprob-orig/mconf.h cprob/mconf.h
+--- cprob-orig/mconf.h	Sat May 27 12:42:33 2000
++++ cprob/mconf.h	Thu Apr  4 16:06:12 2013
+@@ -173,11 +173,13 @@
+ #define DENORMAL 1
+ 
+ /* Define to ask for infinity support, else undefine. */
+-#define INFINITIES 1
++/* #define INFINITIES 1 */
++#undef INFINITIES
+ 
+ /* Define to ask for support of numbers that are Not-a-Number,
+    else undefine.  This may automatically define INFINITIES in some files. */
+-#define NANS 1
++/* #define NANS 1 */
++#undef NANS
+ 
+ /* Define to distinguish between -0.0 and +0.0.  */
+ #define MINUSZERO 1
