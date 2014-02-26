@@ -1,0 +1,11 @@
+Package: qtden
+Version: 1.0
+Architecture: amd64
+Maintainer: Bob Pepin <bob.pepin@gmail.com>
+Installed-Size: 692
+Depends: libc6 (>= 2.4), libesom1, libgcc1 (>= 1:4.1.1), libgsl0ldbl (>= 1.9), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.4.0)
+Section: unknown
+Priority: extra
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

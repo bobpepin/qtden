@@ -1,0 +1,12 @@
+ok Replicate Groups
+ok Sample Groups
+ok Ordering
+ok exclude outliers
+ok Rescaling
+ok Printing
+
+
+4. 1 sample/group
+5. Unclassified samples
+6. Metab Groups
+7. logarithm

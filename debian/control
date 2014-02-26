@@ -1,0 +1,15 @@
+Source: qtden
+Section: unknown
+Priority: extra
+Maintainer: Bob Pepin <bob.pepin@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), libqwt5-qt4-dev, libqt4-dev, libgsl0-dev
+Standards-Version: 3.9.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/qtden.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/qtden.git;a=summary
+
+Package: qtden
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
